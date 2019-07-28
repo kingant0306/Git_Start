@@ -1,0 +1,86 @@
+body
+{
+  width:1370px;
+  margin : 20px auto ;
+}
+
+h2,h3
+{
+  font-size:25px;
+  text-align: center;
+}
+a
+{
+  color:black;
+  text-decoration:none;
+}
+
+/* 마우스 오버(마우스 올렸을때) */
+a:hover
+{
+  text-decoration:underline;
+}
+h1
+{
+  width:1320px;
+  background:gray;
+  font-size:35px;
+  text-align:center;
+  margin:0;
+  margin-bottom: 15px;
+  padding:25px;
+}
+button
+{
+  width: 254px;
+  color:white;
+  font-size: 20px;
+  border:0px;
+  padding:7px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background:black;
+}
+button:hover
+{
+  color:black;
+  background:white;
+}
+input
+{
+  width:250px;
+  height:20px;
+}
+#gra
+{
+  display:grid;
+  grid-template-columns: 220px 450px 1fr;
+}
+#gra #gr1
+{
+  width:200px;
+  height: 750px;
+  margin:0px;
+  padding:0px;
+  background: silver;
+  border-radius: 5px;
+}
+#gra #gr2
+{
+  text-align: center;
+  width:430px;
+  height: 750px;
+  margin:0px;
+  background: silver;
+  border-radius: 5px;
+}
+#gra #gr3
+{
+  width:660px;
+  height: 750px;
+  padding-right: 20px;
+  margin:0px;
+  padding-left:20px;
+  background: silver;
+  border-radius: 5px;
+}
