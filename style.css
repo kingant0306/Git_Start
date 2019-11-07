@@ -1,0 +1,95 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: HY동녘M;
+  color: black;
+  background-color: #1C1C1C;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  min-width: 500px;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a,
+a:link,
+a:hover {
+  text-decoration: none;
+}
+
+.menubar {
+  height: 100px;
+  background-color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.menubar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.menubar ul li {
+  float: left;
+  width: 50%;
+  line-height: 100px;
+}
+
+.menubar li a {
+  color: white;
+}
+
+.main li {
+  text-align: left;
+  font-size: 30px;
+}
+
+.sub li {
+  text-align: right;
+  font-size: 20px;
+}
+
+.sub li a {
+  margin-left: 7%;
+}
+
+.con {
+  height: 70vh;
+  background-image: url(../pic/flower0.jpg);
+  background-size: 100% 100%;
+  margin: 10%;
+  margin-top: 0%;
+  margin-bottom: 5%;
+}
+
+#intro {
+  padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 0%;
+}
+
+#req {
+  padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 0%;
+}
+
+h1 {
+  line-height:1.3em;
+  font-size: 35px;
+  margin: 0;
+  padding: 7%;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
