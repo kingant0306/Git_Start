@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+	text-align: center;
+}
+
+h2 {
+	width:454px;
+	display: inline-block;
+	text-align: left;
+}
+
+label {
+	width:454px;
+	display: inline-block;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: bolder;
+}
+
+.select_s {
+	width: 454px;
+	height: 29px;
+}
+
+input {
+	width: 450px;
+	height: 25px;
+	padding: 0;
+}
+
+.btn_join {
+	display: inline-block;
+	background: black;
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	width: 454px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border: 0;
+	padding: 0;
+	margin-top: 15px;
+}
